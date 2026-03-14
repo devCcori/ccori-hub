@@ -5,7 +5,7 @@ const commonData = {
   email: "lvpccori@gmail.com",
   phone: "+51 944706642",
   location: "Lima, Perú",
-  website: "",
+  website: "portfolio.ccori.dev",
   linkedin: "https://linkedin.com/in/simon-ccori",
   github: "https://github.com/devCcori",
 };
