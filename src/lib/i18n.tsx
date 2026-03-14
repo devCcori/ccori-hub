@@ -209,10 +209,6 @@ const translations = {
     'homelab.tech.lxc': 'Linux Containers',
     'homelab.tech.security': 'Hardening',
     
-    // HomeLab UI
-    'homelab.cluster.main': 'proxmox-cluster (Main Node)',
-    'homelab.vms': 'VMs / LXC Active',
-    
     // Experience
     'experience.title': 'Work Experience',
     
