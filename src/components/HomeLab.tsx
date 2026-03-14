@@ -60,7 +60,7 @@ export default function HomeLab() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#f4f4f5] mb-4">
-            {t('homelab.title')} <span className="text-[#10b981]">HomeLab</span>
+            {t('homelab.title')}
           </h2>
           <p className="text-[#64748b] text-lg max-w-2xl mx-auto">
             {t('homelab.subtitle')}
