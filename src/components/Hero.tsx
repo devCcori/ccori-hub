@@ -6,7 +6,7 @@ import { Download } from 'lucide-react';
 
 export default function Hero() {
   const { name, title, summary, email, linkedin, github, location } = useCvData();
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const [displayText, setDisplayText] = useState('');
   const [currentLine, setCurrentLine] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
@@ -132,7 +132,7 @@ export default function Hero() {
               LinkedIn
             </a>
             <a
-              href="/cv.pdf"
+              href={`/cv_${lang}.pdf`}
               download
               className="px-6 py-3 bg-[#8b5cf6] hover:bg-[#a78bfa] text-white font-semibold rounded-lg transition flex items-center gap-2"
               style={{ boxShadow: '0 0 20px rgba(139, 92, 246, 0.4)' }}
