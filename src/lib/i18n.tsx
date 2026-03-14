@@ -89,12 +89,16 @@ const translations = {
     'homelab.tech.lxc': 'Containers Linux',
     'homelab.tech.security': 'Hardening',
     
-    // HomeLab UI
-    'homelab.cluster.main': 'proxmox-cluster (Nodo Principal)',
+    // HomeLab
+    'homelab.title': 'Infraestructura HomeLab',
+    'homelab.subtitle': 'Cluster Proxmox VE - Arquitectura de nodos virtualizados',
     'homelab.vms': 'VMs / LXC Activos',
+    'homelab.youarehere': 'Estás aquí: Nodo 104 (LXC Container)',
+    'homelab.cluster.main': 'proxmox-cluster (Nodo Principal)',
     
     // Experience
-    'experience.title': 'Experiencia Laboral',
+    'experience.title': 'Experiencia',
+    'experience.laboral': 'Laboral',
     
     // Skills
     'skills.title': 'Habilidades Técnicas',
@@ -210,7 +214,8 @@ const translations = {
     'homelab.tech.security': 'Hardening',
     
     // Experience
-    'experience.title': 'Work Experience',
+    'experience.title': 'Work',
+    'experience.laboral': 'Experience',
     
     // Skills
     'skills.title': 'Technical Skills',
