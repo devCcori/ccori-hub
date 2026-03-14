@@ -272,7 +272,7 @@ export default function ArchitectureDiagram() {
 
   return (
     <div className="w-full">
-      <div className="h-[500px] bg-[#020617] rounded-xl border border-[#1e293b]">
+      <div className="h-[500px] bg-[#020617] rounded-xl border border-[#1e293b] touch-pan-y">
         <ReactFlow
           nodes={nodes}
           edges={edges}
@@ -283,6 +283,7 @@ export default function ArchitectureDiagram() {
           nodeTypes={nodeTypes}
           fitView
           attributionPosition="bottom-left"
+          panOnScroll={false}
         >
           <Background color="#1e293b" gap={16} />
           <Controls className="!bg-[#0f172a] !border-[#1e293b] !shadow-lg [&>button]:!bg-[#1e293b] [&>button]:!border-[#334155] [&>button]:!text-[#f4f4f5] [&>button]:hover:!bg-[#334155]" />

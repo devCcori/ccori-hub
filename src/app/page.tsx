@@ -6,7 +6,6 @@ import Services from '@/components/Services';
 import HomeLab from '@/components/HomeLab';
 import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
-import Projects from '@/components/Projects';
 import GitHubSection from '@/components/GitHubSection';
 import Education from '@/components/Education';
 import Certifications from '@/components/Certifications';
@@ -42,10 +41,6 @@ export default function Home() {
       
       <motion.section id="skills" {...fadeInUp}>
         <Skills />
-      </motion.section>
-      
-      <motion.section id="projects" {...fadeInUp}>
-        <Projects />
       </motion.section>
       
       <motion.section id="github" {...fadeInUp}>

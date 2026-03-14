@@ -37,7 +37,7 @@ const cvDataES = {
     {
       id: 3,
       company: "Inkillcompany",
-      position: "Diseñador Web",
+      position: "Desarrollador Frontend",
       startDate: "2024",
       endDate: "2024",
       description: "Desarrollo de la arquitectura web para 'Perfect Balance', unificando la presencia digital de múltiples marcas corporativas."
@@ -52,7 +52,7 @@ const cvDataES = {
       field: "Ciberseguridad",
       startDate: "En curso",
       endDate: "Presente",
-      note: "Destacado en el 1er Ciclo"
+      note: "Promedio Sobresaliente"
     },
     {
       id: 2,
@@ -158,7 +158,7 @@ const cvDataEN = {
     {
       id: 3,
       company: "Inkillcompany",
-      position: "Web Designer",
+      position: "Frontend Developer",
       startDate: "2024",
       endDate: "2024",
       description: "Developed the web architecture for 'Perfect Balance', unifying the digital presence of multiple corporate brands."
@@ -173,7 +173,7 @@ const cvDataEN = {
       field: "Cybersecurity",
       startDate: "In progress",
       endDate: "Present",
-      note: "Outstanding in 1st Cycle"
+      note: "Outstanding GPA"
     },
     {
       id: 2,
