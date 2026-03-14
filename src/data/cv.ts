@@ -72,7 +72,7 @@ const cvDataES = {
       issuer: "INE Security",
       year: "2025",
       description: "Certificación en Ciberseguridad - INE Security",
-      link: "https://certs.ine.com/d1b3b8b3-8b3b-4b3b-8b3b-8b3b8b3b8b3b",
+      link: "https://certs.ine.com/0399ec48-a371-4cab-a357-8ce34acf954b",
       badge: "🛡️",
       color: "#ef4444"
     },

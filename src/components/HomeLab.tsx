@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useI18n } from '@/lib/i18n';
+import ArchitectureDiagram from './ArchitectureDiagram';
 
 export const nodes = [
   {
@@ -144,6 +145,16 @@ export default function HomeLab() {
               <span>105</span>
             </div>
           </div>
+        </div>
+
+        {/* Interactive Architecture Diagram */}
+        <div className="bg-[#0f172a] rounded-xl border border-[#1e293b] p-6 md:p-8 mb-8">
+          <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#1e293b]">
+            <div className="w-3 h-3 rounded-full bg-[#06b6d4]"></div>
+            <span className="font-mono text-[#06b6d4]">{t('homelab.diagram.title')}</span>
+            <span className="ml-auto text-[#64748b] text-sm">{t('homelab.diagram.subtitle')}</span>
+          </div>
+          <ArchitectureDiagram />
         </div>
 
         {/* Selected Node Details */}

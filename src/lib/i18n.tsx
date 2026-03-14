@@ -96,6 +96,8 @@ const translations = {
     'homelab.vms': 'VMs / LXC Activos',
     'homelab.youarehere': 'Estás aquí: Nodo 104 (LXC Container)',
     'homelab.cluster.main': 'proxmox-cluster (Nodo Principal)',
+    'homelab.diagram.title': 'Arquitectura de Red',
+    'homelab.diagram.subtitle': 'Interactivo - Click en los nodos',
     
     // Experience
     'experience.title': 'Experiencia',
@@ -193,6 +195,8 @@ const translations = {
     'homelab.vms': 'VMs / LXC Active',
     'homelab.youarehere': 'You are here: Node 104 (LXC Container)',
     'homelab.cluster.main': 'proxmox-cluster (Main Node)',
+    'homelab.diagram.title': 'Network Architecture',
+    'homelab.diagram.subtitle': 'Interactive - Click nodes',
     
     // Projects
     'projects.view': 'View project →',
