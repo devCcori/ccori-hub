@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useCvData, useI18n } from '@/lib/i18n';
+import { Download } from 'lucide-react';
 
 export default function Hero() {
   const { name, title, summary, email, linkedin, github, location } = useCvData();
@@ -129,6 +130,15 @@ export default function Hero() {
               className="px-6 py-3 bg-[#1e293b] hover:bg-[#334155] text-white font-semibold rounded-lg border border-[#334155] transition"
             >
               LinkedIn
+            </a>
+            <a
+              href="/cv.pdf"
+              download
+              className="px-6 py-3 bg-[#8b5cf6] hover:bg-[#a78bfa] text-white font-semibold rounded-lg transition flex items-center gap-2"
+              style={{ boxShadow: '0 0 20px rgba(139, 92, 246, 0.4)' }}
+            >
+              <Download size={18} />
+              {t('hero.downloadcv')}
             </a>
           </div>
         </div>

@@ -20,6 +20,7 @@ const translations = {
     'hero.dockerized': 'Dockerizado',
     'hero.prize': 'Puesto ABET',
     'hero.contact': 'Contactar',
+    'hero.downloadcv': 'Descargar CV',
     
     // Nav
     'nav.home': 'Inicio',
@@ -138,6 +139,7 @@ const translations = {
     'hero.dockerized': 'Dockerized',
     'hero.prize': 'ABET Prize',
     'hero.contact': 'Contact Me',
+    'hero.downloadcv': 'Download CV',
     
     // Nav
     'nav.home': 'Home',
